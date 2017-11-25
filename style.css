@@ -40,12 +40,12 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #d1d1f6;
     color: #111;
 }
 
 body {
-    background-color: #4CAF50;
+    background-color: #d1d1f6;
     margin-top: 70px;
 }
 
