@@ -73,6 +73,8 @@ footer div {
 }
 
 .content {
+    clear: both;
+    overflow: hidden;
     padding: 20px;
     margin: 200px;
     background-color: #66c3bfb5;
@@ -82,4 +84,38 @@ footer div {
 
 #active {
     color:  yellow;
+}
+
+tr td {
+    padding: 0px 70px 0px 70px;
+}
+
+#projects
+{
+    background: url('images/projects.png');
+    height: 188px;
+    width: 128px;
+}
+#projects:hover {
+    background: url('images/projects_h.png');
+}
+
+#contact
+{
+    background: url('images/contact.png');
+    height: 188px;
+    width: 128px;
+}
+#contact:hover {
+    background: url('images/contact_h.png');
+}
+
+#about
+{
+    background: url('images/about.png');
+    height: 188px;
+    width: 128px;
+}
+#about:hover {
+    background: url('images/about_h.png');
 }
